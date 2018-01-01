@@ -22,6 +22,10 @@ elif command == 'pagedown':
 	command = 'down down down down down down down down'
 elif command == 'pageup':
 	command = 'up up up up up up up up'
+elif command == 'rewind':
+	command = 'rewind rewind rewind rewind'
+elif command == 'fastforward':
+	command = 'fastforward fastforward fastforward fastforward'
 	
 cliString = 'sky-remote-cli {} {}'.format(skyIp, command)	
 print cliString
